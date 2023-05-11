@@ -16,6 +16,6 @@ function submitForm() {
   
     // Display the result
     var resultDiv = document.getElementById("result");
-    resultDiv.innerHTML = "O amor de " + firstName + " e " + lastName + " = " + loveScore + "%.";
+    resultDiv.innerHTML = "O amor de " + firstName + " é " + lastName + " de " + loveScore + "%.";
   }
   
